@@ -11,6 +11,7 @@
 <h2 align="center">Run the code</h2>
 
 <h3>Dependencies Installation:</h3>
+
 ```sh
 pip install setup/requirements.txt
 ```
@@ -42,5 +43,5 @@ python Certificate_Generator.py
 - If you want change the fonts, copy your fonts in the *Fonts* directory. You can [Downlaod your front here](https://www.1001fonts.com/signature-fonts.html?page=2)
   <br>
   - Which font do you change if you want to change font used for attendees name you should change **fon = ImageFont.truetype("GothamBold.ttf", 60)** to **fon = ImageFont.truetype("font you want to use", size of font)**
-  <br>
+  <br/>
   - And if you want to change font used for Signatures you should change **fox = ImageFont.truetype("PWSignaturetwo.ttf", 50)** to **fox = ImageFont.truetype("font you want to use", size of font)**
